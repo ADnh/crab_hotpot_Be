@@ -15,3 +15,4 @@ Mọi người làm nhớ lưu lại thư viện sử dụng để bổ sung và
 - **Video có định dạng**: mp4, độ phân giải mặc định là 720p ( nếu video không hỗ trợ 720p thì sẽ tải về ưu tiên tải về 480 đến 360 đến 240)
 - **File âm thanh**: gồm hai định dạng là .wav, .mp3
 - **Thư mục lưu trữ**: ./temp (sau khi AI xử lý xong thì xóa các file trong /temp để giải phóng lưu lượng)
+- **api crawl**: http://127.0.0.1:8000/crawl_apis/crawl/<id_video>
