@@ -28,6 +28,23 @@ phoBert.eval()
 cnn.eval()
 cnn.to(device)
 
+########################################## Speech to text ##########################3
+from transformer import pipeline
+file_path = "/home/hoadinh/SpeechToText/crab_hotpot_Be-main/VIVOSDEV01_R044.wav"
+output_crack = file_path
+def speech_to_text(file_path):
+    """
+    Args:
+        - file_path: path to audio file.
+    Returns:
+        - vi_sentence: return vietnames sentence
+    """
+    transcriber = pipeline("automatic-speech-recognition", model="vinai/PhoWhisper-large", device="cuda")
+    vi_sentence = transcriber(file_path)
+    return vi_sentence
+
+######################################################################################
+
 def predict_class_from_text(processed_sentence):
     """
     Nhận đầu vào là 1 sentence tiếng Việt, trả về lớp dự đoán và xác suất tương ứng.
