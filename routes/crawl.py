@@ -6,7 +6,7 @@ import sys
 import os
 your_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'producer'))
 sys.path.append(your_file_path)
-from crawl_from_link import download_video_audio, create_browser, crawl_youtube_comments
+from producer.crawl_from_link import download_video_audio, create_browser, crawl_youtube_comments
 
 COMMENT_XPATH = '//*[@id="content-text"]'
 BASE_URL = 'https://www.youtube.com/watch?v='
