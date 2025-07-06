@@ -16,3 +16,6 @@ Mọi người làm nhớ lưu lại thư viện sử dụng để bổ sung và
 - **File âm thanh**: gồm hai định dạng là .wav, .mp3
 - **Thư mục lưu trữ**: ./temp (sau khi AI xử lý xong thì xóa các file trong /temp để giải phóng lưu lượng)
 - **api crawl**: http://127.0.0.1:8000/crawl_apis/crawl/<id_video>
+
+# Dataset
+https://drive.google.com/drive/folders/1tDJPwcz3FD39830e0byNpgiC15u1jWlX?usp=sharing
