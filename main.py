@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes.nlp import router as nlp_router
+# from routes.nlp import router as nlp_router
 from routes.ips import router as ips_router
 from routes.crud import router as crud_router
 from routes.crawl import router as crawl_router
